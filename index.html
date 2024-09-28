@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chifoumi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/game-favicon.png">
+</head>
+<body>
+    <div class="header">
+        
+        <div class="game">
+            <h2>ROCK - PAPER - SCISSORS</h2>
+            <div class="game-icones">
+                <div class="bttn" id="bttn">
+                    <div class="btn" id="btn-x">
+                        <button id="btn1">Rock</button>
+                        <button id="btn2">Paper</button>
+                        <button id="btn3">Scissors</button>
+                    </div>
+                </div>
+                <div class="participant">
+                    <div class="user">
+                        <div class="bloc bloc-user">
+                            <h4>
+                                <img class="icones" src="img/icons/user-solid.png" alt="" width="25"> User
+                            </h4>
+                            <img src="img/blue.png" alt="" class="images" id="userImage">
+                            <p id="userLibelle"></p>
+                        </div>
+                        <div class="score">
+                            Score : 
+                            <p id="userScore">0</p>
+                        </div>
+                    </div>
+                    <div class="vs">
+                        <strong>VS</strong>
+                    </div>
+                    <div class="computer">
+                        <div class="bloc bloc-computer">
+                            <h4>
+                                <img class="icones" src="img/icons/computer-solid.png" alt="" width="35"> PC
+                            </h4>
+                            <img src="img/blue.png" alt="" class="images" id="computerImage" width="90">
+                            <p id="computerLibelle"></p>
+                        </div>
+                        <div class="score">
+                            Score :
+                            <p id="computerScore">0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="etat">
+                Classification : 
+                <div id="messageBox"></div>
+            </div>
+            <div class="finalScore">
+                <div class="endScore">
+                    Final score : 
+                    <div id="scoreFinale">
+                    </div>
+                </div>
+            </div>
+            <div class="etat">
+                Status : 
+                <div id="messageBox1"></div>
+            </div>
+            <button id="resetButton">Reset</button>
+        </div>
+    
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
